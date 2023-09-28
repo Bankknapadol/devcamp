@@ -1,0 +1,325 @@
+body {
+    background-color: #bab86c;
+    text-align: center
+}
+
+/*
+#bab86c = light olive
+#556b2f = dark olive
+#3c392e = gray olive
+*/
+
+/*Navagation*/
+.navbar {
+    display: block;
+    text-align: left;
+    list-style-type: none;
+    margin-left: -6px;
+    margin-top: -8px;
+    background-color: #bab86c;
+    line-height: 48px;
+    border-bottom: 10px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar a {
+    margin: -2px;
+    display: inline;
+    background-color: #bab86c;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    padding: 12.5px 16px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    background-color: #556b2f;
+}
+
+.navbar .navabout {
+    background-color: #556b2f;
+}
+
+.navbar .navskills {
+    background-color: #556b2f;
+}
+
+.navbar .navcontact {
+    background-color: #556b2f;
+}
+
+.navbar .navportfo {
+    background-color: #556b2f;
+}
+
+.navbar .navform {
+    background-color: #556b2f;
+}
+
+/*About Me*/
+.contentbody {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-radius: 45px;
+    min-height: 570px;
+    max-height: max-content;
+}
+
+
+.headingabout {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: #556b2f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+.imgabout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 45px;
+
+}
+
+.contentabout1 {
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    color: #52692b;
+}
+
+.contentabout2 {
+    display: block;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 23px;
+    color: #3c392e;
+}
+
+/*Skills*/
+.headingskills {
+    text-align: left;
+    font-size: 80px;
+    font-weight: bold;
+    color: #556b2f;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+.listskills ul {
+    display: block;
+    text-align: left;
+    list-style-type: none;
+    font-size: 23px;
+    line-height: 45px;
+    color: #3c392e;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*Contact ME*/
+.headingcontact {
+    text-align: left;
+    font-size: 80px;
+    font-weight: bold;
+    color: #556b2f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+.contentcontact ul {
+    display: block;
+    text-align: left;
+    list-style-type: none;
+    font-size: 23px;
+    line-height: 45px;
+    color: #3c392e;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*Register Form*/
+
+.headingform {
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    font-size: 80px;
+    font-weight: bold;
+    color: #556b2f;
+    margin-top: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.formbox {
+    display: block;
+    text-align: left;
+    background-color: white;
+    min-height: 440px;
+    max-height: max-content;
+    min-width: fit-content;
+    max-width: 600px;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+table {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+tr,
+td {
+    margin: auto;
+}
+
+input {
+    margin-left: 10px;
+    min-height: 14px;
+}
+
+.headingactionform {
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    font-size: 80px;
+    font-weight: bold;
+    color: #556b2f;
+    margin-top: 100px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+/*Portfolio*/
+
+.logoport {
+    float: left;
+    max-width: 80px;
+    min-width: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.headingport {
+    float: left;
+    font-size: 60px;
+    font-weight: bold;
+    color: #556b2f;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.searchbar {
+    float: left;
+    margin-top: 35px;
+    padding-left: 120px;
+}
+
+input.nosubmit {
+    max-width: 400px;
+    min-width: auto;
+    border: 1px solid #555;
+    display: inline;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 9px;
+    padding-bottom: 8px;
+    padding-right: 150px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 300px center;
+}
+
+button[type="submit"] {
+    display: inline;
+    max-width: 80px;
+    min-width: auto;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    background-color: #52692b;
+}
+
+div .newport {
+    float: right;
+    background-color: #52692b;
+    border-color: #52692b;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.portheadcontentbody {
+    display: block;
+    border-radius: 45px;
+    border: 2px solid #3c392e;
+    background-color: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    min-height: 70px;
+    max-height: fit-content;
+}
+
+.showcase {
+    display: inline-block;
+    padding: 40px 40px 40px 40px;
+}
+
+.showcase {
+    display: inline-block;
+    padding: 40px 40px 40px 40px;
+}
+
+.showcaselogo {
+    display: inline-block;
+    max-width: 200px;
+    min-width: auto;
+    margin-right: 20px;
+}
+
+.showcaselist {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    list-style-type: none;
+    font-size: 20px;
+}
