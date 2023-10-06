@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: darkslategrey;
+    font-family: arial, sans-serif;
+}
+
+/*Nav Bar*/
+/*-----Nav img*/
+nav img {
+    width: 90px;
+}
+
+/*-----Nav Nav*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 5%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 5%;
+    padding-right: 4%;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*-----Nav call*/
+nav .call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    background-color: aquamarine;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 35px;
+    margin-right: 1%;
+    margin-top: -15px;
+}
+
+nav .call a {
+    transform: rotate(90deg);
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+nav .call img {
+    width: 28px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+nav .phone h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav .phone h2 {
+    color: white;
+    font-size: 13px;
+}
+
+/*header*/
+header {
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(47, 79, 79, 1) 100%),
+        url(https://www.cmu.ac.th/content/organization/00467dd5-7558-456e-bee0-9f3bdc2d17b5/1131b4d3-9ad9-4c0d-b79f-d0f45814f8a8.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin-top: -10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header .overlap {
+    font-size: 25px;
+    margin-left: 17.5%;
+    margin-top: -5%;
+    white-space: nowrap;
+    color: darkslategrey;
+}
+
+header .sq {
+    border: 3px solid darkslategrey;
+    white-space: nowrap;
+    padding-bottom: 5%;
+    padding-top: 13%;
+    padding-left: 2%;
+    padding-right: 6%;
+    margin-top: -10%;
+    margin-left: 23%;
+    color: darkslategrey;
+}
+
+/*numbuttom*/
+body .numbuttom {
+    margin-left: 23%;
+    margin-top: -8%;
+}
+
+body .numbuttom img {
+    width: 40px;
+}
+
+/*sujinno*/
+body .sujinno {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(47, 79, 79, 1) 20%, rgba(47, 79, 79, 1) 100%);
+
+}
+
+body .sujinno img {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+body .sujinno .sujinnotext h1 {
+    margin-top: 50%;
+    margin-left: 25%;
+    margin-bottom: 7%;
+    white-space: nowrap;
+}
+
+body .sujinno .sujinnotext p {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25%;
+    white-space: nowrap;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+/*img&text row*/
+body .imgtextrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    padding-bottom: 10%;
+}
+
+body .imgtextrow .contain img {
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+
+body .imgtextrow .contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body .imgtextrow .contain h3 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+body .imgtextrow .contain p {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*panorama*/
+body .panorama {
+    background-image: url(https://w1.med.cmu.ac.th/edserv/grad/files/2022/07/slide-01-1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    background-position: center;
+}
+
+body .panorama .contain {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 5%;
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0, 0.450);
+    padding-bottom: 5%;
+}
+
+body .panorama .contain h1 {
+    margin-bottom: 2%;
+    font-size: 50px;
+}
+
+body .panorama .contain h2 {
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+body .panorama .contain h3 {
+    margin-bottom: 4%;
+    font-size: 30px;
+}
+
+body .panorama .contain p {
+    margin-bottom: 1%;
+}
+
+body .panorama .contain a {
+    margin-top: 10%;
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    margin-right: 60%;
+    padding: 2%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*bar*/
+body .bar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: aquamarine;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    margin-right: 20%;
+}
+
+body .bar .barhead {
+    color: black;
+    border-right: 4px solid black;
+    padding-right: 3%;
+}
+
+body .bar .bartext {
+    color: black;
+    padding-left: 3%;
+}
+
+body .bar .bartext p {
+    margin: 1%;
+    white-space: nowrap;
+}
+
+
+/*cardslide*/
+body .cardslide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    padding-bottom: 10%;
+}
+
+body .cardslide .card{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+
+body .cardslide .card .contain img {
+    width: 80%;
+}
+
+body .cardslide .card .contain {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+body .cardslide  .card .contain h3 {
+    text-align: left;
+    padding-top: 10%;
+    background-color: aquamarine;
+    padding-left: 5%;
+    margin-right: 20%;
+    color: black;
+}
+
+body .cardslide .card .contain p {
+    text-align: left;
+    padding-top: 10%;
+    background-color: aquamarine;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-bottom: 20%;
+    color: black;
+}
+
+/*underslide*/
+body .underslide {
+    display: block;
+    font-size: 10vh;
+    text-align: center;
+    margin-top: -5%;
+    padding-bottom: 4%;
+    opacity: 50%;
+}
